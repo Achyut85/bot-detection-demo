@@ -10,6 +10,6 @@ app.use(express.json());
 app.use("/api", apiLimiter);
 app.use("/api", submitRoute);
 
-app.listen(5000, () => {
+app.listen(3000, () => {
   console.log("Server running on http://localhost:3000");
 });
