@@ -21,7 +21,7 @@ export default function App() {
       headers["x-captcha-token"] = "verified";
     }
 
-    const res = await fetch("http://localhost:5000/api/submit", {
+    const res = await fetch("http://localhost:3000/api/submit", {
       method: "POST",
       headers
     });
